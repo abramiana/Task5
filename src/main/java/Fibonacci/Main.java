@@ -5,7 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Main {
     public static void main(String[] args) {
-        final Logger logger = LogManager.getLogger(FibonacciIterative.class);
+        final Logger logger = LogManager.getLogger(Main.class);
 
         int number = 8;
         logger.trace("start number " + number + "\n");
